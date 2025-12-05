@@ -1,0 +1,1 @@
+This repository contains the replication material for "Reconceptualizing Conflict Emergence Evidence from Machine Learning". Each folder is a stand-alone project. 
