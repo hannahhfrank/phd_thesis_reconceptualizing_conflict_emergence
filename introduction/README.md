@@ -26,6 +26,5 @@ Run the file (takes roughly 3 hours).
 python compare.py
 ```
 
-Make sure to remove the out paths or adjust to your computer. 
 
 
