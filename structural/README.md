@@ -27,7 +27,7 @@ Run the main file to get predictions and SHAP values. This will take roughly 3 h
 python main.py
 ```
 
-To obtain the results shown in the paper, run the results file. Make sure to remove or adjust the out-paths. 
+To obtain the results shown in the paper, run the results file. 
 
 ```
 python results.py
