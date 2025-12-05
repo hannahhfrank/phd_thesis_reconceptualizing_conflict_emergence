@@ -672,8 +672,6 @@ for c in base.country.unique():
     axs[1].plot(base_imp_final["year"].loc[base_imp_final["country"]==c], base_imp_final["group_counts"].loc[base_imp_final["country"]==c],c="black")
     axs[0].set_title(c,size=20)
     if c=="Iraq":
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/structural/out/struc_missin1.eps",dpi=300,bbox_inches='tight')        
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/struc_missin1.eps",dpi=300,bbox_inches='tight')
         plt.savefig("out/struc_missin1.eps",dpi=300,bbox_inches='tight')    
     plt.show()
 
@@ -914,8 +912,6 @@ for c in base.country.unique():
     axs[1].plot(base_imp_final["year"].loc[base_imp_final["country"]==c], base_imp_final["oil_share"].loc[base_imp_final["country"]==c],c="black")
     axs[0].set_title(c,size=20)
     if c=="Equatorial Guinea":
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/structural/out/struc_missin2.eps",dpi=300,bbox_inches='tight')        
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/struc_missin2.eps",dpi=300,bbox_inches='tight')
         plt.savefig("out/struc_missin2.eps",dpi=300,bbox_inches='tight')
     plt.show()
 
@@ -1070,8 +1066,6 @@ for c in base.country.unique():
     axs[0].tick_params(axis='y',labelsize=15)
     axs[1].tick_params(axis='y',labelsize=15)
     if c=="Venezuela":
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/structural/out/struc_missin_Venezuela.eps",dpi=300,bbox_inches='tight')        
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/struc_missin_Venezuela.eps",dpi=300,bbox_inches='tight')
         plt.savefig("out/struc_missin_Venezuela.eps",dpi=300,bbox_inches='tight')
     plt.show()
 
@@ -1551,8 +1545,6 @@ for c in base.country.unique():
     axs[1].plot(base_imp_final["year"].loc[base_imp_final["country"]==c], base_imp_final["imports"].loc[base_imp_final["country"]==c],c="black")
     axs[0].set_title(c,size=20)
     if c=="Afghanistan":
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/structural/out/struc_missin_Afghanistan.eps",dpi=300,bbox_inches='tight')        
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/struc_missin_Afghanistan.eps",dpi=300,bbox_inches='tight')
         plt.savefig("out/struc_missin_Afghanistan.eps",dpi=300,bbox_inches='tight')
     plt.show()
 
@@ -2001,8 +1993,6 @@ for c in base.country.unique():
     axs[0].set_title(c)
     axs[0].set_title(c,size=20)
     if c=="Bhutan":
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/structural/out/struc_missin6.eps",dpi=300,bbox_inches='tight')        
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/struc_missin6.eps",dpi=300,bbox_inches='tight')
         plt.savefig("out/struc_missin6.eps",dpi=300,bbox_inches='tight')    
     plt.show()
     
@@ -2125,8 +2115,6 @@ for c in base.country.unique():
     axs[1].plot(base_imp_final["year"].loc[base_imp_final["country"]==c], base_imp_final["regu"].loc[base_imp_final["country"]==c],c="black")
     axs[0].set_title(c,size=20)
     if c=="Ivory Coast":
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/structural/out/struc_missin3.eps",dpi=300,bbox_inches='tight')        
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/struc_missin3.eps",dpi=300,bbox_inches='tight')
         plt.savefig("out/struc_missin3.eps",dpi=300,bbox_inches='tight')    
     plt.show()
 
@@ -2892,8 +2880,6 @@ for c in base.country.unique():
     axs[1].plot(base_imp_final["year"].loc[base_imp_final["country"]==c], base_imp_final["co2"].loc[base_imp_final["country"]==c],c="black")
     axs[0].set_title(c,size=20)
     if c=="Serbia":
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/structural/out/struc_missin4.eps",dpi=300,bbox_inches='tight')        
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/struc_missin4.eps",dpi=300,bbox_inches='tight')
         plt.savefig("out/struc_missin4.eps",dpi=300,bbox_inches='tight')
     plt.show()
 
