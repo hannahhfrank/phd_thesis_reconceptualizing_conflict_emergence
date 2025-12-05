@@ -181,8 +181,6 @@ ax2.text(2.42,0.0137, "***", fontsize=12)
 
 # Save
 plt.savefig("out/results_main_plot.eps",dpi=300,bbox_inches="tight")
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/results_main_plot.eps",dpi=300,bbox_inches='tight')
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/protest_armed_conflict_diss/out/results_main_plot.eps",dpi=300,bbox_inches='tight')
 plt.show()
 
 ##########################################
@@ -260,8 +258,6 @@ for c,i,j in zip(range(1,21),[0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4],[0,1,2,3,
 
 # Save
 plt.savefig("out/results_dang_shapes_ols_top.eps",dpi=300,bbox_inches="tight")
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/results_dang_shapes_ols_top.eps",dpi=300,bbox_inches='tight')
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/protest_armed_conflict_diss/out/results_dang_shapes_ols_top.eps",dpi=300,bbox_inches='tight')
 plt.show()
 
 # Plot a random sample of harmless shapes, which have zero fatalities
@@ -291,8 +287,6 @@ for c,i,j in zip(range(0,20),[0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4],[0,1,2,3,
 
 # Save
 plt.savefig("out/results_dang_shapes_ols_bottom.eps",dpi=300,bbox_inches="tight")
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/results_dang_shapes_ols_bottom.eps",dpi=300,bbox_inches='tight')
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/protest_armed_conflict_diss/out/results_dang_shapes_ols_bottom.eps",dpi=300,bbox_inches='tight')
 plt.show()
 
 ### RF ###
@@ -352,8 +346,6 @@ for c,i,j in zip(range(1,21),[0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4],[0,1,2,3,
 
 # Save
 plt.savefig("out/results_dang_shapes_rf_top.eps",dpi=300,bbox_inches="tight")
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/results_dang_shapes_rf_top.eps",dpi=300,bbox_inches='tight')
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/protest_armed_conflict_diss/out/results_dang_shapes_rf_top.eps",dpi=300,bbox_inches='tight')
 plt.show()
 
 # Plot a random sample of harmless shapes, which have zero fatalities
@@ -383,8 +375,6 @@ for c,i,j in zip(range(0,20),[0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4],[0,1,2,3,
 
 # Save
 plt.savefig("out/results_dang_shapes_rf_bottom.eps",dpi=300,bbox_inches="tight")
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/results_dang_shapes_rf_bottom.eps",dpi=300,bbox_inches='tight')
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/protest_armed_conflict_diss/out/results_dang_shapes_rf_bottom.eps",dpi=300,bbox_inches='tight')
 plt.show()
 
 #########################################################
@@ -436,8 +426,6 @@ for y,i in zip([2013,2014,2015],range(len([2013,2014,2015]))):
 
 # Save
 fig.savefig("out/covar_Egypt.eps",dpi=300,bbox_inches="tight")
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/covar_Egypt.eps",dpi=300,bbox_inches='tight')
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/protest_armed_conflict_diss/out/covar_Egypt.eps",dpi=300,bbox_inches='tight')
 plt.show()
 
 # Make plot for Myanmar
@@ -469,8 +457,6 @@ for y,i in zip([2021,2022,2023],range(len([2021,2022,2023]))):
 
 # Save
 fig.savefig("out/covar_Myanmar.eps",dpi=300,bbox_inches="tight")
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/covar_Myanmar.eps",dpi=300,bbox_inches='tight')
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/protest_armed_conflict_diss/out/covar_Myanmar.eps",dpi=300,bbox_inches='tight')
 plt.show()
 
 ############################
@@ -560,8 +546,6 @@ plt.xticks([0,1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11,12],size=22)
 
 # Save
 plt.savefig("out/dtw1.eps",dpi=300,bbox_inches="tight")
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/dtw1.eps",dpi=300,bbox_inches='tight')
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/protest_armed_conflict_diss/out/dtw1.eps",dpi=300,bbox_inches='tight')
 plt.show()
 
 # (2) Plot cost matrix
@@ -591,8 +575,6 @@ plt.tight_layout()
 
 # Save
 plt.savefig("out/dtw2.eps",dpi=300,bbox_inches="tight")
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/dtw2.eps",dpi=300,bbox_inches='tight')
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/protest_armed_conflict_diss/out/dtw2.eps",dpi=300,bbox_inches='tight')
 plt.show()
 
 

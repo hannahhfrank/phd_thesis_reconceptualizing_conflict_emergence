@@ -214,8 +214,6 @@ for k in [3,5,7]:
             
         # Save
         plt.savefig("out/clusters_clusters.eps",dpi=300,bbox_inches="tight")
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/clusters_clusters.eps",dpi=300,bbox_inches='tight')
-        plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/protest_armed_conflict_diss/out/clusters_clusters.eps",dpi=300,bbox_inches='tight')
         plt.show()
 
 #################################################

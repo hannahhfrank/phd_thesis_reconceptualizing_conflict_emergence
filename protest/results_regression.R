@@ -1,5 +1,5 @@
 # Set working directory and load packages
-setwd('/Users/hannahfrank/protest_fatalities')
+setwd('/Users/hannahfrank/phd_thesis_reconceptualizing_conflict_emergence/protest')
 library(sandwich)
 library(stargazer)
 library(lmtest)

@@ -37,4 +37,3 @@ python results_predictions.py
 Rscript results_regression.R
 ```
 
-Adjust the out-paths and working directory as required. 
