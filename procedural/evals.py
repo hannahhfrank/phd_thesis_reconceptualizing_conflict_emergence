@@ -162,8 +162,6 @@ ax.set_ylim([-0.01,0.087])
 ax.set_yticks([0,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08])
 
 # Save
-#plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/procedural/out/proc_main.eps",dpi=300,bbox_inches='tight')        
-#plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/proc_main.eps",dpi=300,bbox_inches='tight')
 plt.savefig("out/proc_main.eps",dpi=300,bbox_inches='tight')        
   
 ##############
@@ -234,8 +232,6 @@ ax.set_ylim([-0.01,0.087])
 ax.set_yticks([0,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08])
 
 # Save
-#plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/procedural/out/proc_main_robust.eps",dpi=300,bbox_inches='tight')        
-#plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/proc_main_robust.eps",dpi=300,bbox_inches='tight')
 plt.savefig("out/proc_main_robust.eps",dpi=300,bbox_inches='tight')        
           
 ##################  
@@ -294,8 +290,6 @@ for i in range(len(add)):
 
 # Save
 plt.savefig("out/proc_scatter.png",dpi=300,bbox_inches='tight')    
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/procedural/out/proc_scatter.png",dpi=300,bbox_inches='tight')        
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/proc_scatter.png",dpi=300,bbox_inches='tight')    
 
 #########################
 ### By country robust ###
@@ -352,8 +346,6 @@ for i in range(len(add)):
 
 # Save
 plt.savefig("out/proc_scatter_robsut.png",dpi=300,bbox_inches='tight')    
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/procedural/out/proc_scatter_robust.png",dpi=300,bbox_inches='tight')        
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/proc_scatter_robust.png",dpi=300,bbox_inches='tight')    
 
 ########################
 ### Prediction plots ###
@@ -434,20 +426,14 @@ for c in catcher.country.unique():
     
     # Save well working examples
     if c=="Lebanon" or c=="Indonesia" or c=="Armenia" or c=="Azerbaijan" or c=="Uganda" or c=="Chad" or c=="Burundi"  or c=="Philippines" or c=="Israel" or c=="Sudan":
-        plt.savefig(f"/Users/hannahfrank/Dropbox/Apps/Overleaf/procedural/out/proc_preds_{c}.eps",dpi=300,bbox_inches='tight')        
-        plt.savefig(f"/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/proc_preds_{c}.eps",dpi=300,bbox_inches='tight')
         plt.savefig(f"out/proc_preds_{c}.eps",dpi=300,bbox_inches='tight')  
         
     if c=="Russia (Soviet Union)":
         c="Russia"
-        plt.savefig(f"/Users/hannahfrank/Dropbox/Apps/Overleaf/procedural/out/proc_preds_{c}.eps",dpi=300,bbox_inches='tight')        
-        plt.savefig(f"/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/proc_preds_{c}.eps",dpi=300,bbox_inches='tight')
         plt.savefig(f"out/proc_preds_{c}.eps",dpi=300,bbox_inches='tight')  
 
     # Save poorly working examples
     if c=="Togo" or c=="Mexico" or c=="Pakistan" or c=="Mozambique":
-        plt.savefig(f"/Users/hannahfrank/Dropbox/Apps/Overleaf/procedural/out/proc_preds_{c}.eps",dpi=300,bbox_inches='tight')        
-        plt.savefig(f"/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/proc_preds_{c}.eps",dpi=300,bbox_inches='tight')
         plt.savefig(f"out/proc_preds_{c}.eps",dpi=300,bbox_inches='tight') 
     plt.show()   
 

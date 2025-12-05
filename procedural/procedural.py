@@ -77,8 +77,6 @@ for c in df.country.unique():
     
     # If country in selects or if Germany, save
     if c=="Armenia" or c=="Germany" or c=="Benin" or c=="Iran":
-        plt.savefig(f"/Users/hannahfrank/Dropbox/Apps/Overleaf/procedural/out/proc_latent_{c}.eps",dpi=300,bbox_inches='tight')        
-        plt.savefig(f"/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/proc_latent_{c}.eps",dpi=300,bbox_inches='tight')
         plt.savefig(f"out/proc_latent_{c}.eps",dpi=300,bbox_inches='tight')    
     plt.show()   
 

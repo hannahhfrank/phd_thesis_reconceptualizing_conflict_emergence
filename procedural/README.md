@@ -48,4 +48,3 @@ The final script runs the evaluation.
 python evals.py
 ```
 
-Make sure to adjust the out-paths.
