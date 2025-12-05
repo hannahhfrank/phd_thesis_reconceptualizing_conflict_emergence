@@ -92,8 +92,6 @@ for sec in sections[:13]:
         
 # Save        
 plt.savefig("out/decion_tree.eps",dpi=300,bbox_inches='tight')
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/interpretability/out/decion_tree.eps",dpi=300,bbox_inches='tight')        
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/decion_tree.eps",dpi=300,bbox_inches='tight')
 plt.show()
 
 # Train model  
@@ -157,8 +155,6 @@ plt.xticks(size=25)
 
 # Save 
 plt.savefig("out/k_select.eps",dpi=300,bbox_inches='tight') 
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/interpretability/out/k_select.eps",dpi=300,bbox_inches='tight')        
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/k_select.eps",dpi=300,bbox_inches='tight')
 plt.show()
 
 # Make custom colormap, which has blue for negative values and green for positive 
@@ -219,8 +215,6 @@ for i in breaks:
     
 # Save
 plt.savefig("out/inter_shaps.eps",dpi=300,bbox_inches='tight') 
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/interpretability/out/inter_shaps.eps",dpi=300,bbox_inches='tight')        
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/inter_shaps.eps",dpi=300,bbox_inches='tight')
 plt.show()
 
 #############################
@@ -314,8 +308,6 @@ for i in range(10):
 # Save
 plt.tight_layout()
 plt.savefig("out/inter_vars.eps",dpi=300,bbox_inches='tight')
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/interpretability/out/inter_vars.eps",dpi=300,bbox_inches='tight')        
-plt.savefig("/Users/hannahfrank/Dropbox/Apps/Overleaf/PhD_dissertation/out/inter_vars.eps",dpi=300,bbox_inches='tight')
 plt.show()
 
 

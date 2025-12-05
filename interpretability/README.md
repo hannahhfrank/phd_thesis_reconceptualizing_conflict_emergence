@@ -27,5 +27,4 @@ Run the file. This will take approximately 3 hours.
 python main.py
 ```
 
-Make sure to either remove or adjust the out paths. 
 
