@@ -353,7 +353,7 @@ plt.scatter(pol_osv_evals["0"].iloc[1],pol_osv_evals["0"].iloc[2],c=colors[7],s=
 plt.scatter(evals_osv_ensemble_df["0"].iloc[1],evals_osv_ensemble_df["0"].iloc[2],c=colors[7],s=200,marker="x") 
 
 # Customized legend 1
-entries1 = [mpatches.Patch(color='black',label='1,000 fatalities'),mpatches.Patch(color='gray',label='25 fatalities'),mpatches.Patch(color='forestgreen',label='Protest'),mpatches.Patch(color='lightgreen',label='Riots'),mpatches.Patch(color='steelblue',label='Terrorism'), mpatches.Patch(color='lightblue',label='Civil Conflict'),mpatches.Patch(color='purple',label='Non-state'),mpatches.Patch(color='violet',label='One-sided')]
+entries1 = [mpatches.Patch(color='black',label='1,000 fatalities'),mpatches.Patch(color='gray',label='25 fatalities'),mpatches.Patch(color='forestgreen',label='Protest'),mpatches.Patch(color='lightgreen',label='Riots'),mpatches.Patch(color='steelblue',label='Terrorism'), mpatches.Patch(color='lightblue',label='Battles'),mpatches.Patch(color='purple',label='Non-state'),mpatches.Patch(color='violet',label='One-sided')]
 leg1 = ax.legend(handles=entries1, title='Outcomes', loc='center left', bbox_to_anchor=(1, 0.7),frameon=False,fontsize=15,title_fontsize=15)
 
 # Customized legend 2
