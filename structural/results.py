@@ -395,18 +395,22 @@ colors=["dimgray","lightgray","forestgreen","lightgreen","steelblue","lightblue"
 fig, ax = plt.subplots(figsize=(14, 5))
 ax.margins(x=0.02)
 
-# Mark beginnings of grouped bars
-bar_groups = np.arange(8)*(6 * 0.5 + 0.5)
+# Define start of each grouped bar section (over outcomes)
+# There are eight outcomes, and 6 themes, and each bar has width 0.5
+# then add 0.5 as space to next grouped bars
+bar_start = np.arange(8)*(6 * 0.5 + 0.5)
 
 # Loop over outcomes
 for i,outcome in enumerate(evals):
     print(outcome)
 
-    # Get positions on x
-    x = bar_groups[i] + np.arange(6) * 0.5
+    # Get x values, start values, and then add range within grouped bar 
+    x = bar_start[i] + [0,0.5,1,1.5,2,2.5]
     
     # Add bar plot
     bars = ax.bar(x,outcome,width=0.5,color=colors[i],edgecolor='black')
+    
+    # Mark ensemble with ///
     bars[0].set_hatch("///")
     bars[0].set_edgecolor("black")   
 
@@ -465,14 +469,16 @@ colors=["dimgray","lightgray","forestgreen","lightgreen","steelblue","lightblue"
 fig, ax = plt.subplots(figsize=(14, 5))
 ax.margins(x=0.02)
 
-# Mark beginnings of grouped bars
-bar_groups = np.arange(8)*(6 * 0.5 + 0.5)
+# Define start of each grouped bar section (over outcomes)
+# There are eight outcomes, and 6 themes, and each bar has width 0.5
+# then add 0.5 as space to next grouped bars
+bar_start = np.arange(8)*(6 * 0.5 + 0.5)
 
 # Loop over outcomes
 for i,outcome in enumerate(evals):
 
-    # Get positions on x
-    x = bar_groups[i] + np.arange(6) * 0.5
+    # Get x values, start values, and then add range within grouped bar 
+    x = bar_start[i] + [0,0.5,1,1.5,2,2.5]
     
     # Add bar plot
     bars = ax.bar(x,outcome,width=0.5,color=colors[i],edgecolor='black')
