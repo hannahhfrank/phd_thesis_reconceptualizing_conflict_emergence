@@ -427,7 +427,7 @@ ax.set_xticks([0,0.5,1,1.5,2,2.5,3.5,4,4.5,5,5.5,6,7,7.5,8,8.5,9,9.5,10.5,11,11.
 ax.text(0,1.03,"1,000-fatality",size=15)
 ax.text(3.8,1.03,"25-fatality",size=15)
 ax.text(7.6,1.03,"Protest",size=15)
-ax.text(11.2,1.03,"Riotes",size=15)
+ax.text(11.2,1.03,"Riots",size=15)
 ax.text(14.4,1.03,"Terrorism",size=15)
 ax.text(18.1,1.03,"Battles",size=15)
 ax.text(21.3,1.03,"Non-state",size=15)
