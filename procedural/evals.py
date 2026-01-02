@@ -156,10 +156,10 @@ plt.text(mse_struc-0.02, onset_struc+0.001, "Structural", size=20, color='gray')
 ax.invert_xaxis() # revert x axis
 plt.xlabel("Mean squared logarithmic error (reverted)")
 plt.ylabel("Onset score")
-ax.set_xticks([0,0.5,1,1.5,2,2.5])
-ax.set_xlim([2.5,0])
-ax.set_ylim([-0.01,0.087])
-ax.set_yticks([0,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08])
+ax.set_xticks([0,0.5,1,1.5,2,2.5,3])
+ax.set_xlim([3,0])
+ax.set_ylim([-0.01,0.1])
+ax.set_yticks([0,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1])
 
 # Save
 plt.savefig("out/proc_main.eps",dpi=300,bbox_inches='tight')        
@@ -226,10 +226,10 @@ plt.text(mse_struc-0.02, onset_struc+0.001, "Structural", size=20, color='gray')
 ax.invert_xaxis() # revert x axis
 plt.xlabel("Mean squared logarithmic error (reverted)")
 plt.ylabel("Onset score")
-ax.set_xticks([0,0.5,1,1.5,2,2.5])
-ax.set_xlim([2.5,0])
-ax.set_ylim([-0.01,0.087])
-ax.set_yticks([0,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08])
+ax.set_xticks([0,0.5,1,1.5,2,2.5,3])
+ax.set_xlim([3,0])
+ax.set_ylim([-0.01,0.1])
+ax.set_yticks([0,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1])
 
 # Save
 plt.savefig("out/proc_main_robust.eps",dpi=300,bbox_inches='tight')        
